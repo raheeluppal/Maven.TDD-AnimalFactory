@@ -13,9 +13,7 @@ public class CatHouse {
         catHouse.add(cat);
     }
 
-    public static void remove(Integer id) {
-        catHouse.removeAnimalById(id);
-    }
+    public static void remove(Integer id) { catHouse.removeAnimalById(id); }
 
     public static void remove(Cat cat) {
         catHouse.removeAnimal(cat);
